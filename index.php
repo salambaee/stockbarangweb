@@ -17,6 +17,7 @@
 <div style="text-align:center;">
     <a href="tambah.php">➕ Tambah Barang</a> | 
     <a href="kategori.php">📂 Kelola Kategori</a>
+    <a href="export.php">Export ke Excel</a>
 </div>
 
 <table>
@@ -50,7 +51,7 @@
             <td>{$sisa}</td>
             <td>
                 <a href='update.php?id={$row['id_barang']}'>✏ Edit</a>
-                <a href='delete.php?id={$row['id_barang']}' onclick=\"return confirm('Hapus barang ini?');\">🗑 Hapus</a>
+                <a href='hapus.php?id={$row['id_barang']}' onclick=\"return confirm('Hapus barang ini?');\">🗑 Hapus</a>
             </td>
         </tr>";
     }

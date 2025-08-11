@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "";
+$pass = "1234";
 $db = "gudang_db";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
